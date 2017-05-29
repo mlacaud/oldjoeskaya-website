@@ -14,6 +14,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" type="text/css">
+    <link href="node_modules/fullcalendar/dist/fullcalendar.print.min.css" rel="stylesheet" type="text/css" media='print'>
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -24,6 +26,7 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -90,22 +93,35 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Original Pecno Steady</h2>
-                    <h3 class="section-subheading text-muted">Garanti sans farine depuis 2017.</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLRXcM6fA9EqCjZV-ZhEZO7AEunQixYSIT" frameborder="0" allowfullscreen></iframe>
+                    <h3 class="section-subheading text-muted">Les plus grands tubes, repris à la sauce Old Joe's Kaya, dans un pur style Pecno.</h3>
+                    <div class="text-center" style="margin-bottom: 30px;margin-top:-50px;">
+                        <ul class="list-inline social-buttons">
+                            <li style="margin-right:5em;"><a href="https://twitter.com/oldjoeskaya"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/oldjoeskaya"><i class="fa fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-sm-offset-3">
+					<iframe style="height:300px;width:100%;" src="https://www.youtube.com/embed/videoseries?list=PLRXcM6fA9EqCjZV-ZhEZO7AEunQixYSIT" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-			<div class="row text-center">
-			<h2>The Old Joe's Kaya continue de remplir sa liste de concerts !</h2>
-			<h3>Vous voulez louer nos services ? Utilisez le formulaire en bas de cette page pour nous contacter !</h3>
+
+			<div class="row text-center" style="margin-top: 40px;margin-bottom: 40px;">
+			    <h3>The Old Joe's Kaya continue de remplir sa liste de concerts !</h2>
+			    <h4>Vous souhaitez louer nos services ? Utilisez le formulaire en bas de cette page pour nous contacter !</h3>
 			</div>
+
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-music fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Reprises</h4>
-                    <p class="text-muted">Les plus grands tubes, repris à la sauce Old Joe's Kaya, dans un pur style Pecno.</p>
+                    <h4 class="service-heading">Des reprises pour toi, public</h4>
+                    <p class="text-muted">Chez The Old Joe's Kaya, on reprend des tubes de chanteurs morts pour les tuer une deuxième fois.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -113,15 +129,15 @@
                         <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">C'est de la bombe</h4>
-                    <p class="text-muted">Pourquoi s'embêter à utiliser de la dynamite quand on peut appeler The Old Joe's Kaya ?</p>
+                    <p class="text-muted">Pourquoi s'embêter à utiliser de la dynamite quand on peut appeler The Old Joe's Kaya ? Le Pecno Steady va vous faire danser toute la nuit !</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-battery-full fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-plug fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">De l'énergie à revendre</h4>
-                    <p class="text-muted">Attention: l'abus de Pecno Steady peut vous faire danser toute la nuit. À consommer sans modération !</p>
+                    <h4 class="service-heading">Indépendants au niveau du matériel</h4>
+                    <p class="text-muted">The Old Joe's Kaya arrive avec son propre matériel pour faire des lives au plus près du public !</p>
                 </div>
             </div>
         </div>
@@ -136,49 +152,8 @@
                     <h3 class="section-subheading text-muted">En direct des saloons.</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/bercy.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Bercy</h4>
-                        <p class="text-muted">Petite tournée à Paris</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/saloon.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Le saloon</h4>
-                        <p class="text-muted">Concert dans le saloon le plus proche de chez vous !</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/villageindien.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Le village de Indiens</h4>
-                        <p class="text-muted">Dans la tente de bison futé</p>
-                    </div>
-                </div>
+            <div class="col-sm-8 col-sm-offset-2">
+               <div id='calendar'></div>
             </div>
         </div>
     </section>
@@ -194,16 +169,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                   <p>The Old Joe's Kaya est un groupe de musiciens situé en Gironde et spécialisé dans les reprises dans un style mélangeant rock, rock steady et bluegrass pour donner naissance à ce qu'ils sont les seuls à appeler du Pecno Steady.</p>
+                   <p class="large"><span class="marge">The Old Joe's Kaya est un groupe de musiciens situé en Gironde et spécialisé dans les reprises dans un style mélangeant rock, rock steady et bluegrass pour donner naissance à ce qu'ils sont les seuls à appeler du Pecno Steady.</p>
 				   <br/>
-				   <p>C’était un soir de pleine lune. Le vent caressait les dunes d’un désert séculaire, le froid glaçait les os, mais la chaleur du feu scintillait dans les yeux usées des cowboys avachis et affamés, détruits par leurs rêves inaccessibles de gloire et de richesse. Ils cherchaient encore et toujours la mine d’or qui exaucerait un jour leurs espoirs pathétique.</p> 
-	<p>Au loin, un coyote descendait de la dune derrière eux. Il s’approcha lentement du groupe. Arrivé à leur niveau, il leur dit d’une voix toute mielleuse “aouuuuuhh mmmaaattch mauuuooou hahouhaouu”, ce que l’on pourrait traduire par:
-“Je suis Coco le coyote ! Que vous semblez faible et fatigués ! Ce ne sont pas ces haricots aux herbes qui pourront satisfaire vos petits estomacs ! Laissez moi vous faire une offre que vous ne pourrez pas refuser. Si vous me promettez, ici et maintenant, de monter un groupe de musique mélangeant harmonieusement les sons que les gens aiment et connaissent avec l’esprit des coyotes dansant sous la lune rousse, et qu’en plus vous propagez mon message a travers le monde, alors je vous laisserai me manger.“</p>
-<p>Ainsi fût fait et naquis, en ce jour, Old Joe’s Kaya. Suite à cela, les membres du groupes arrêtèrent définitivement la consommation des substances pouvant provoquer ce genre de délire collectif, incluant l'herbe du vieux Joe qu'ils avaient utilisé pour aromatiser les quelques haricots rouge de leurs maigres repas.
-
-Fermez les parenthèses et ouvrez le Bal.... </p>
-				   <br/>
-				   <p class="text-muted">"Chez The Old Joe's Kaya, on reprend des tubes de chanteurs morts pour les tuer une deuxième fois..."<p>
+				   <p class="large text-muted"><span class="marge">C’était un soir de pleine lune. Le vent caressait les dunes d’un désert séculaire, le froid glaçait les os, mais la chaleur du feu scintillait dans les yeux usées des cowboys avachis et affamés, détruits par leurs rêves inaccessibles de gloire et de richesse. Ils cherchaient encore et toujours la mine d’or qui exaucerait un jour leurs espoirs pathétique.</p> 
+	                <p class="large text-muted"><span class="marge">Au loin, un coyote descendait de la dune derrière eux. Il s’approcha lentement du groupe. Arrivé à leur niveau, il leur dit d’une voix toute mielleuse “aouuuuuhh mmmaaattch mauuuooou hahouhaouu”, ce que l’on pourrait traduire par:
+                        “Je suis Coco le coyote ! Que vous semblez faible et fatigués ! Ce ne sont pas ces haricots aux herbes qui pourront satisfaire vos petits estomacs ! Laissez moi vous faire une offre que vous ne pourrez pas refuser. Si vous me promettez, ici et maintenant, de monter un groupe de musique mélangeant harmonieusement les sons que les gens aiment et connaissent avec l’esprit des coyotes dansant sous la lune rousse, et qu’en plus vous propagez mon message a travers le monde, alors je vous laisserai me manger.“</p>
+                    <p class="large text-muted"><span class="marge">Ainsi fût fait et naquis, en ce jour, Old Joe’s Kaya. Suite à cela, les membres du groupes arrêtèrent définitivement la consommation des substances pouvant provoquer ce genre de délire collectif, incluant l'herbe du vieux Joe qu'ils avaient utilisé pour aromatiser les quelques haricots rouge de leurs maigres repas.
+                        Fermez les parenthèses et ouvrez le Bal.... </p>
                 </div>
             </div>
         </div>
@@ -222,42 +194,42 @@ Fermez les parenthèses et ouvrez le Bal.... </p>
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/Fab.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Fab'</h4>
-                        <p class="text-muted">Ch(i)anteur</p>
+                        <h3>Fab'</h3>
+                        <p class="large text-muted">Ch(i)anteur</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/Mathieu.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Matthieu</h4>
-                        <p class="text-muted">Gratteux</p>
+                        <h3>Matthieu</h3>
+                        <p class="large text-muted">Gratteux</p>
                     </div>
                 </div>
 				<div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/Julien.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Julien</h4>
-                        <p class="text-muted">Gratteux</p>
+                        <h3>Julien</h3>
+                        <p class="large text-muted">Gratteux</p>
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-offset-2">
                     <div class="team-member">
                         <img src="img/team/Nico.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Nico'</h4>
-                        <p class="text-muted">Batteur</p>
+                        <h3>Nico'</h3>
+                        <p class="large text-muted">Batteur</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/Math.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Maths'</h4>
-                        <p class="text-muted">Bassiste</p>
+                        <h3>Maths'</h3>
+                        <p class="large text-muted">Bassiste</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 50px;">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Livrés avec santiags et équipement complet.</p>
+                    <h4 class="large">Livrés avec santiags et équipement complet.</p>
                 </div>
             </div>
         </div>
@@ -323,112 +295,14 @@ Fermez les parenthèses et ouvrez le Bal.... </p>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <!--<ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>-->
-                </div>
             </div>
         </div>
     </footer>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Concert à Bercy</h2>
-                                <p class="item-intro text-muted">De nombreuses places disponibles !</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/bercy.jpg" alt="">
-                                <p>Un Pecno-Concert dans une salle mythique !</p>
- 
-                                <ul class="list-inline">
-                                    <li>Date:  22 Juillet 2017</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Concert au saloon</h2>
-                                <p class="item-intro text-muted">Au plus proche de chez vous !</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/saloon.jpg" alt="">
-                                <p>The Old Joe's Kaya se dégage de toute responsabilité en cas de bagarre dans le saloon. Les verres brisés seront à la charge des clients.</p>
-
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Concert au village indien</h2>
-                                <p class="item-intro text-muted">En direct du tipi de Bison Futé !</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/villageindien.jpg" alt="">
-                                <p>De l'eau de feu sera servie pendant le concert.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="node_modules/moment/moment.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -439,6 +313,11 @@ Fermez les parenthèses et ouvrez le Bal.... </p>
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
+    <!-- Calendar -->
+    <script src="node_modules/fullcalendar/dist/fullcalendar.min.js"></script>
+    <script src="node_modules/fullcalendar/dist/gcal.min.js"></script>
+    <script src="js/calendar.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>

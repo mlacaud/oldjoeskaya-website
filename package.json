@@ -27,5 +27,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mlacaud/oldjoeskaya-website.git"
+  },
+  "dependencies": {
+    "fullcalendar": "^3.4.0",
+    "moment": "^2.18.1"
   }
 }
