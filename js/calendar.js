@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+	var event;
 		$('#calendar').fullCalendar({
 
 			header: {
@@ -29,6 +29,9 @@ $(document).ready(function() {
 			},
 
 			loading: function(bool) {
+				if(!bool) {
+					event = $('#calendar').fullCalendar('clientEvents');
+				}
 				$('#loading').toggle(bool);
 			}
 
