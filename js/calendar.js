@@ -12,6 +12,8 @@ $(document).ready(function() {
 
       defaultView: 'month',
 
+			lang: 'fr',
+
 			// THIS KEY WON'T WORK IN PRODUCTION!!!
 			// To make your own Google API key, follow the directions here:
 			// http://fullcalendar.io/docs/google_calendar/
