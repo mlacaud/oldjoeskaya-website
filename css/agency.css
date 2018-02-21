@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Old Joe's Kaya v1.0.0 (https://oldjoeskaya.fr)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/mlacaud/oljoeskaya-website/blob/gh-pages/LICENSE)
  */
 body {
@@ -147,7 +147,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #000000;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -161,7 +161,7 @@ fieldset[disabled] .btn-xl.active {
   color: #fec503;
 }
 .navbar-custom .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(0, 0, 0, 1);
 }
 .navbar-custom .navbar-toggle {
   background-color: #fed136;
@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    background-color: black;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -218,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #000000;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {

@@ -10,3 +10,24 @@
 section {
   padding: 50px;
 }
+.navbar-oldjoe {
+    background-color: black;
+    border-color: black;
+}
+
+@media(min-width: 768px){
+.logo-top {
+    margin-top: 50px;
+    margin-left: 30vw;
+    width: 40vw;
+}
+}
+
+@media(max-width: 768px){
+.logo-top {
+    margin-top: 50px;
+    margin-left: 20vw;
+    width: 60vw;
+}
+}
+
